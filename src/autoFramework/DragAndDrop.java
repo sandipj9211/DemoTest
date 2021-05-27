@@ -11,6 +11,16 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class DragAndDrop {
+	
+	private String myname;
+
+	public String getMyname() {
+		return myname;
+	}
+
+	public void setMyname(String myname) {
+		this.myname = myname;
+	}
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
